@@ -26,28 +26,16 @@ const IS_ELECTRON = window.IS_ELECTRON || false;
       <div class="d-flex w-100 gap-2 justify-content-center align-items-center">
         <TopBarButtons />
       </div>
-
       <br />
-      <div class="row align-items-center mx-auto mt-4 pb-5 pb-lg-0">
-        <div class="col"></div>
-        <div class="col-12 col-lg-5">
-          <img :src="hf10_banner_1032x600" alt="Hacktoberfest 2023 Banner" class="w-100 rounded" />
-        </div>
         <div style="font-family: monospace" class="col-12 col-lg-5 p-4 text-lg-start text-center">
-          <span class="fs-5"
-            >We're excited to announce that we are participating in <b>Hacktoberfest 2023</b>, a month-long celebration of open source.
-          </span>
           <hr />
-          <span>It's a fantastic opportunity for you to get involved and make a difference!</span>
           <span class="pt-2">
-            So why wait ? Head over to our <a href="https://github.com/techrail/devta">GitHub</a> page now and start making your mark on the open
-            source world. Join us in this global celebration of open source and let's make Hacktoberfest 2023 the best one yet!
+            This deployment is intended for demonstration purposes only. It is based on a fork of the original open-source project and may include modifications or enhancements. For the official project, please refer to the original repository linked above.
           </span>
         </div>
         <div class="col"></div>
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped src="./style.css"></style>
